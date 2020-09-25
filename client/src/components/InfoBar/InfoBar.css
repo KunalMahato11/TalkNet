@@ -1,0 +1,45 @@
+.infoBar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: transparent;
+	color: black;
+	border-radius: 40px;
+	margin-top: 5rem;
+	height: 60px;
+	width: 100%;
+}
+
+.leftInnerContainer {
+	flex: 0.5;
+	display: flex;
+	align-items: center;
+	margin-left: 5%;
+	color: #f4f6ff;
+}
+
+.room-name {
+	text-transform: uppercase;
+	font-family: 'Source Code Pro', monospace;
+	letter-spacing: 2px;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.rightInnerContainer {
+	display: flex;
+	flex: 0.5;
+	justify-content: flex-end;
+	margin-right: 5%;
+}
+
+.onlineIcon {
+	margin-right: 5%;
+}
+
+.home-icon {
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-right: 3rem;
+	margin-top: .2rem;
+}

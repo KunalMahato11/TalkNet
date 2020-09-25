@@ -1,0 +1,39 @@
+.textContainer {
+	display: flex;
+	flex-direction: column;
+	margin-top: 6.3rem;
+	align-items: center;
+}
+
+.main-heading {
+	font-family: 'Source Code Pro', monospace;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+	color: #f4f6ff;
+}
+
+.activeContainer {
+	margin-top: 5rem;
+}
+
+.activeItem {
+	display: flex;
+	align-items: center;
+	font-family: 'Source Code Pro', monospace;
+	color: #fcf8e8;
+	font-weight: 400;
+	border-radius: 2rem;
+	padding-left: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.icon {
+	margin-right: 1rem;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+	.textContainer {
+		display: none;
+	}
+}

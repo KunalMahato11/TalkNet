@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.outerContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url('back-3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.rooms {
+	background-image: url('back-3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100rem;
+	height: fit-content;
+	border-radius: 3rem;
+	display: flex;
+	justify-content: flex-end;
+	margin: 5rem auto;
+}
+
+.chat-area {
+	width: 80rem;
+	height: 65rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 3rem;
+}
+
+.online-users {
+	width: 20rem;
+	height: 65rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 3rem;
+}
+
+.rooms-icons {
+	margin-top: 6rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-icon {
+	width: 5rem;
+	height: 5rem;
+	margin-bottom: 9rem;
+}
+
+.svg {
+	align-content: space-between;
+	width: 3rem;
+	height: 3rem;
+	margin-bottom: 8rem;
+	overflow: hidden;
+	transition: ease-in 0.3s;
+}
+
+.svg:hover {
+	transform: scale(1.5);
+}
+
+.svg:active {
+	transform: translateY(2px);
+	transition: ease-out 0.2s;
+}

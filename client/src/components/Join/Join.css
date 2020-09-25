@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	background-image: url('Chat-App-Background-2.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#root {
+	height: 100vh;
+}
+
+.jOuter {
+	position: absolute;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    left: 65%;
+	top: 20%;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.jInner {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.input-1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+.input-2 {
+	margin-bottom: 50px;
+	margin-left: 10px;
+}
+
+ .joinInput {
+	border-radius: 0;
+	padding: 10px 20px;
+	width: 80%;
+	margin-left: 20px;
+	border: none;
+	border-bottom: 2px solid #D3D3D3;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 400;
+} 
+
+.heading {
+	text-transform: uppercase;
+    text-align: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+    font-size: 30px;
+    color: #36454f;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+}
+
+.button {
+	color: #fff !important;
+	text-transform: uppercase;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 600;
+	font-size: 15px;
+	text-decoration: none;
+	background: #2979ff;
+	padding: 10px 20px;
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 22%;
+	border-radius: 18px;
+	border: none;
+	width: 50%;
+	transition: ease-in .5s;
+	letter-spacing: 1.5px;
+}
+
+.button:hover {
+	transform: scale(1.1);
+}
+
+.button:active {
+	transform: translateY(4px);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.joinOuterContainer {
+		height: 100%;
+	}
+
+	.joinInnerContainer {
+		width: 90%;
+	}
+}

@@ -1,0 +1,10 @@
+.messages {
+	/* padding: 5% 0;
+	overflow: auto;
+	flex: auto; */
+	margin-top: 3rem;
+	/* background-color: white; */
+	background-color: transparent;
+	padding: 5rem;
+	height: 66.7%;
+}
